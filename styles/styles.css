@@ -1,0 +1,289 @@
+.wraper {
+    width: 940px;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* ============heder============ */
+.main_nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+}
+
+.main_logo {
+    padding-top: 7px;
+}
+
+.main_nav_menu {
+    display: flex;
+    margin: 0;
+}
+
+.main_nav_menu_item {
+    list-style: none;
+}
+
+.main_nav_menu_item:not(:nth-child(5n)) {
+    margin-right: 39px;
+}
+
+.main_nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    line-height: 41px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.main_nav a:hover {
+    color: #fed136;
+}
+
+/* =============main============= */
+.titel_services {
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 126px;
+}
+
+.titel_services_info {
+    font-size: 16px;
+    font-family: "Droid Serif";
+    color: rgb(119, 119, 119);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* ===============cart============ */
+.services_cart {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.services_cart_item {
+    list-style: none;
+    width: 284px;
+    height: 196px;
+    /* outline: 2px solid red; */
+}
+
+.services_cart_item p {
+    margin: 0;
+}
+
+.services_cart_item_titel_e_commerce {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.services_cart_item_titel_responsive_web{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.services_cart_item_titel_web_security{
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 18px;
+}
+.services_cart_item_titel_e_commerce::before {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    content: "";
+    width: 74px;
+    height: 74px;
+    background-image: url(/Homework7/imeges/Icon-Basket.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    border: 3px solid #fed136;
+    border-radius: 73px;
+}
+.services_cart_item_titel_responsive_web::before {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    content: "";
+    width: 74px;
+    height: 74px;
+    background-image: url(/Homework7/imeges/Icon-Laptop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    border: 3px solid #fed136;
+    border-radius: 73px;
+}
+.services_cart_item_titel_web_security::before {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    content: "";
+    width: 74px;
+    height: 74px;
+    background-image: url(/Homework7/imeges/Icon-Locked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 23px;
+    border: 3px solid #fed136;
+    border-radius: 73px;
+}
+
+.services_cart_item_description {
+    font-size: 14px;
+    font-family: "Roboto Slab";
+    color: rgb(119, 119, 119);
+    /* line-height: 1.2; */
+
+}
+
+/* ==========footer========= */
+footer{
+    background-color: #222222;
+    height: 676px;
+}
+.titel_services_contact_us{
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-top: 109px;
+}
+.input_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 28px;
+    margin-top: 78px;
+
+    width: 940px;
+    height: 352px;
+    align-content: space-between;
+}
+.input_info {
+    width: 432px;
+    height: 52px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.input_info:not(:nth-child(3n)) {
+    margin-bottom: 29px;
+}
+.your_message {
+    resize: none;
+    width: 432px;
+    height: 202px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+.button_send_message{
+    display: flex;
+    padding-left: 45px;
+    min-width: 241px;
+    height: 67px;
+    border-radius: 2px;
+    border-style: none;
+    background-color: #fed136;
+    margin: 30px auto;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: -135px;
+    
+}
+input[type="email"]{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+input[type="text"]{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+textarea[name="message"]{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(187, 187, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+input[name="email"]:valid{
+    outline: 3px solid green;
+}
+input[name="email"]:invalid{
+    outline: 3px solid red;
+}
+input[name="your_name"]:valid{
+    outline: 3px solid green;
+}
+input[name="your_name"]:invalid{
+    outline: 3px solid red;
+}
+textarea[name="message"]:valid{
+    outline: 3px solid green;
+}
+textarea[name="message"]:invalid{
+    outline: 3px solid red;
+}
+.imeg_map{
+    background-image: url(/Homework7/imeges/Map\ Image.png);
+    /* outline: 2px solid red; */
+    width: 874px;
+    height: 537px;
+    position: absolute;
+    right: 0px;
+    margin-top: 115px;
+}
+.footer{
+}
