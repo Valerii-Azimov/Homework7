@@ -95,7 +95,8 @@
     text-align: center;
     padding-bottom: 18px;
 }
-.services_cart_item_titel_responsive_web{
+
+.services_cart_item_titel_responsive_web {
     font-size: 18px;
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
@@ -103,7 +104,8 @@
     text-align: center;
     padding-bottom: 18px;
 }
-.services_cart_item_titel_web_security{
+
+.services_cart_item_titel_web_security {
     font-size: 18px;
     font-family: "Montserrat";
     color: rgb(34, 34, 34);
@@ -111,6 +113,7 @@
     text-align: center;
     padding-bottom: 18px;
 }
+
 .services_cart_item_titel_e_commerce::before {
     display: block;
     overflow: hidden;
@@ -126,6 +129,7 @@
     border: 3px solid #fed136;
     border-radius: 73px;
 }
+
 .services_cart_item_titel_responsive_web::before {
     display: block;
     overflow: hidden;
@@ -141,6 +145,7 @@
     border: 3px solid #fed136;
     border-radius: 73px;
 }
+
 .services_cart_item_titel_web_security::before {
     display: block;
     overflow: hidden;
@@ -166,11 +171,12 @@
 }
 
 /* ==========footer========= */
-footer{
+footer {
     background-color: #222222;
     height: 676px;
 }
-.titel_services_contact_us{
+
+.titel_services_contact_us {
     font-size: 40px;
     font-family: "Montserrat";
     color: #ffffff;
@@ -182,17 +188,18 @@ footer{
     margin: 0;
     padding-top: 109px;
 }
+
 .input_form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-right: 28px;
     margin-top: 78px;
-
     width: 940px;
     height: 352px;
     align-content: space-between;
 }
+
 .input_info {
     width: 432px;
     height: 52px;
@@ -202,9 +209,11 @@ footer{
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
 }
+
 .input_info:not(:nth-child(3n)) {
     margin-bottom: 29px;
 }
+
 .your_message {
     resize: none;
     width: 432px;
@@ -215,7 +224,8 @@ footer{
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
 }
-.button_send_message{
+
+.button_send_message {
     display: flex;
     padding-left: 45px;
     min-width: 241px;
@@ -231,9 +241,9 @@ footer{
     text-transform: uppercase;
     cursor: pointer;
     margin-left: -135px;
-    
 }
-input[type="email"]{
+
+input[type="email"] {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(187, 187, 187);
@@ -241,7 +251,8 @@ input[type="email"]{
     text-transform: uppercase;
     padding-left: 20px;
 }
-input[type="text"]{
+
+input[type="text"] {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(187, 187, 187);
@@ -249,7 +260,8 @@ input[type="text"]{
     text-transform: uppercase;
     padding-left: 20px;
 }
-textarea[name="message"]{
+
+textarea[name="message"] {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(187, 187, 187);
@@ -258,25 +270,32 @@ textarea[name="message"]{
     padding-left: 20px;
     padding-top: 18px;
 }
-input[name="email"]:valid{
+
+input[name="email"]:valid {
     outline: 3px solid green;
 }
-input[name="email"]:invalid{
+
+input[name="email"]:invalid {
     outline: 3px solid red;
 }
-input[name="your_name"]:valid{
+
+input[name="your_name"]:valid {
     outline: 3px solid green;
 }
-input[name="your_name"]:invalid{
+
+input[name="your_name"]:invalid {
     outline: 3px solid red;
 }
-textarea[name="message"]:valid{
+
+textarea[name="message"]:valid {
     outline: 3px solid green;
 }
-textarea[name="message"]:invalid{
+
+textarea[name="message"]:invalid {
     outline: 3px solid red;
 }
-.imeg_map{
+
+.imeg_map {
     background-image: url(/Homework7/imeges/Map\ Image.png);
     /* outline: 2px solid red; */
     width: 874px;
@@ -284,6 +303,4 @@ textarea[name="message"]:invalid{
     position: absolute;
     right: 0px;
     margin-top: 115px;
-}
-.footer{
 }
