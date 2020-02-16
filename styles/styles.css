@@ -8,7 +8,7 @@
 .main_nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 37px;
+    margin-top: 37px;
 }
 
 .main_logo {
@@ -49,11 +49,11 @@
     color: rgb(34, 34, 34);
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 75px;
+    /* line-height: 75px; */
     display: flex;
     justify-content: center;
     margin: 0;
-    padding-top: 126px;
+    margin-top: 126px;
 }
 
 .titel_services_info {
@@ -63,7 +63,7 @@
     font-style: italic;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 24px 0 0 0;
 }
 
 /* ===============cart============ */
@@ -73,19 +73,19 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
 }
 
 .services_cart_item {
     list-style: none;
     width: 284px;
-    height: 196px;
+    height: 205px;
     /* outline: 2px solid red; */
 }
 
-.services_cart_item p {
+/* .services_cart_item p {
     margin: 0;
-}
+} */
 
 .services_cart_item_titel_e_commerce {
     font-size: 18px;
@@ -93,7 +93,8 @@
     color: rgb(34, 34, 34);
     font-weight: bold;
     text-align: center;
-    padding-bottom: 18px;
+    margin: 0px;
+    /* padding-bottom: 18px; */
 }
 
 .services_cart_item_titel_responsive_web {
@@ -102,7 +103,8 @@
     color: rgb(34, 34, 34);
     font-weight: bold;
     text-align: center;
-    padding-bottom: 18px;
+    margin: 0px;
+    /* padding-bottom: 18px; */
 }
 
 .services_cart_item_titel_web_security {
@@ -111,7 +113,8 @@
     color: rgb(34, 34, 34);
     font-weight: bold;
     text-align: center;
-    padding-bottom: 18px;
+    margin: 0px;
+    /* padding-bottom: 18px; */
 }
 
 .services_cart_item_titel_e_commerce::before {
@@ -166,14 +169,21 @@
     font-size: 14px;
     font-family: "Roboto Slab";
     color: rgb(119, 119, 119);
+    margin-top: 18px;
+    margin-bottom: 0;
     /* line-height: 1.2; */
 
 }
 
 /* ==========footer========= */
 footer {
-    background-color: #222222;
-    height: 676px;
+    background-image: url(/Homework7/imeges/Background_image.png);
+    margin-top: 119px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    /* height: 676px; */
 }
 
 .titel_services_contact_us {
@@ -182,22 +192,26 @@ footer {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 75px;
+    /* line-height: 75px; */
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding-top: 109px;
+    margin-top: 110px;
+    margin-bottom: 0;
+    /* margin: 0;
+    padding-top: 109px; */
 }
 
 .input_form {
     display: flex;
-    flex-direction: column;
+    margin-top: 74px;
     flex-wrap: wrap;
+    /* flex-direction: column;
+
     margin-right: 28px;
     margin-top: 78px;
     width: 940px;
     height: 352px;
-    align-content: space-between;
+    align-content: space-between; */
 }
 
 .input_info {
@@ -208,6 +222,7 @@ footer {
     border-color: rgb(204, 204, 204);
     border-radius: 2px;
     background-color: rgb(255, 255, 255);
+
 }
 
 .input_info:not(:nth-child(3n)) {
@@ -233,14 +248,14 @@ footer {
     border-radius: 2px;
     border-style: none;
     background-color: #fed136;
-    margin: 30px auto;
+    margin: 30px auto 115px;
     font-size: 18px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    margin-left: -135px;
+    /* margin-left: -135px; */
 }
 
 input[type="email"] {
@@ -270,6 +285,13 @@ textarea[name="message"] {
     padding-left: 20px;
     padding-top: 18px;
 }
+.input_textarea{
+    margin-left: 30px;
+}
+.input_text{
+    display: flex;
+    flex-direction: column;
+}
 
 input[name="email"]:valid {
     outline: 3px solid green;
@@ -295,12 +317,12 @@ textarea[name="message"]:invalid {
     outline: 3px solid red;
 }
 
-.imeg_map {
+/* .imeg_map {
     background-image: url(/Homework7/imeges/Map\ Image.png);
-    /* outline: 2px solid red; */
+    outline: 2px solid red;
     width: 874px;
     height: 537px;
     position: absolute;
     right: 0px;
     margin-top: 115px;
-}
+} */

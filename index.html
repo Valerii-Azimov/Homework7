@@ -51,15 +51,19 @@
     </main>
     <!-- =================footer============== -->
     <footer class="footer">
-        <div class="imeg_map"></div>
+        <!-- <div class="imeg_map"></div> -->
         <div class="wraper">
             <h2 class="titel_services_contact_us">Contact us</h2>
             <p class="titel_services_info">Proin iaculis purus consequat sem cure.</p>
             <form class="input_form" action="#" method="GET">
-                <input class="input_info" type="text" placeholder="Your Name*" required name="your_name">
-                <input class="input_info" type="email" placeholder="Your E-mail*" required name="email">
-                <input class="input_info" type="text" placeholder="Subject" name="subject">
-                <textarea class="your_message" name="message" placeholder="Your message*" required></textarea>
+                <div class="input_text">
+                    <input class="input_info" type="text" placeholder="Your Name*" required name="your_name">
+                    <input class="input_info" type="email" placeholder="Your E-mail*" required name="email">
+                    <input class="input_info" type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="input_textarea">
+                    <textarea class="your_message" name="message" placeholder="Your message*" required></textarea>
+                </div>
                 <button class="button_send_message" type="submit">Send message</button>
             </form>
         </div>
