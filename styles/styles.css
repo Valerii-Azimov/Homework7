@@ -73,6 +73,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 119px;
     /* margin-bottom: 120px; */
 }
 
@@ -178,7 +179,6 @@
 /* ==========footer========= */
 footer {
     background-image: url(/Homework7/imeges/Background_image.png);
-    margin-top: 119px;
     display: flex;
     background-repeat: no-repeat;
     background-position: right;
@@ -225,9 +225,9 @@ footer {
 
 }
 
-.input_info:not(:nth-child(3n)) {
+/* .input_info:not(:nth-child(3n)) {
     margin-bottom: 29px;
-}
+} */
 
 .your_message {
     resize: none;
@@ -242,9 +242,10 @@ footer {
 
 .button_send_message {
     display: flex;
-    padding-left: 45px;
+    /* padding-left: 45px; */
     min-width: 241px;
-    height: 67px;
+    padding: 26px 0 26px 45px;
+    /* height: 67px; */
     border-radius: 2px;
     border-style: none;
     background-color: #fed136;
@@ -291,6 +292,7 @@ textarea[name="message"] {
 .input_text{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 input[name="email"]:valid {
