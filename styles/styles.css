@@ -1,3 +1,58 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-900 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Black'), local('Montserrat-Black'),
+        url('../fonts/montserrat-v14-latin-900.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/montserrat-v14-latin-900.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/roboto-slab-v11-latin-regular.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/roboto-slab-v11-latin-regular.woff') format('woff');
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* pt-serif-italic - latin */
+@font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 400;
+    src: local('PT Serif Italic'), local('PTSerif-Italic'),
+         url('../fonts/pt-serif-v11-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/pt-serif-v11-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* pt-serif-700italic - latin */
+  @font-face {
+    font-family: 'PT Serif';
+    font-style: italic;
+    font-weight: 700;
+    src: local('PT Serif Bold Italic'), local('PTSerif-BoldItalic'),
+         url('../fonts/pt-serif-v11-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/pt-serif-v11-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 .wraper {
     width: 940px;
     margin: auto;
@@ -58,7 +113,7 @@
 
 .titel_services_info {
     font-size: 16px;
-    font-family: "Droid Serif";
+    font-family: "PT Serif";
     color: rgb(119, 119, 119);
     font-style: italic;
     display: flex;
@@ -125,7 +180,7 @@
     content: "";
     width: 74px;
     height: 74px;
-    background-image: url(/Homework7/imeges/Icon-Basket.png);
+    background-image: url(../images/Icon-Basket.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -141,7 +196,7 @@
     content: "";
     width: 74px;
     height: 74px;
-    background-image: url(/Homework7/imeges/Icon-Laptop.png);
+    background-image: url(../images/Icon-Laptop.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -157,7 +212,7 @@
     content: "";
     width: 74px;
     height: 74px;
-    background-image: url(/Homework7/imeges/Icon-Locked.png);
+    background-image: url(../images/Icon-Locked.png);
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
@@ -178,7 +233,7 @@
 
 /* ==========footer========= */
 footer {
-    background-image: url(/Homework7/imeges/Background_image.png);
+    background-image: url(../images/Background_image.png);
     display: flex;
     background-repeat: no-repeat;
     background-position: right;
@@ -295,32 +350,32 @@ textarea[name="message"] {
     justify-content: space-between;
 }
 
-input[name="email"]:valid {
+input[name="email"]:focus:valid {
     outline: 3px solid green;
 }
 
-input[name="email"]:invalid {
+input[name="email"]:focus:invalid {
     outline: 3px solid red;
 }
 
-input[name="your_name"]:valid {
+input[name="your_name"]:focus:valid {
     outline: 3px solid green;
 }
 
-input[name="your_name"]:invalid {
+input[name="your_name"]:focus:invalid {
     outline: 3px solid red;
 }
 
-textarea[name="message"]:valid {
+textarea[name="message"]:focus:valid {
     outline: 3px solid green;
 }
 
-textarea[name="message"]:invalid {
+textarea[name="message"]:focus:invalid {
     outline: 3px solid red;
 }
 
 /* .imeg_map {
-    background-image: url(/Homework7/imeges/Map\ Image.png);
+    background-image: url(/Homework7/images/Map\ Image.png);
     outline: 2px solid red;
     width: 874px;
     height: 537px;
